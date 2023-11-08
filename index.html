@@ -1,1 +1,79 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Então</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="">
+        <div class="controle-form">
+            <!-- <label for="codigo">Codígo:</label> -->
+            <input type="number" id="codigo" value="963852741" disabled>
+        </div>
+        <div class="controle-form">
+            <!-- <label for="nome">Nome:</label> -->
+            <input type="text" id="nome" required autocomplete="name" autofocus placeholder="Nome Completo">
+        </div>
+        <div class="controle-form">
+            <!-- <label for="cpf">CPF:</label> -->
+            <input type="number" id="cpf" readonly placeholder="Ex: 111.222.333-44">
+        </div>
+        <div class="controle-form">
+            <!-- <label for="text">E-mail:</label> -->
+            <input type="email" id="email" required autocomplete="email" placeholder="Ex: name@instituição.com">
+        </div>
+        <div class="controle-form">
+            <!-- <label for="idade">Idade:</label> -->
+            <input type="number" id="idade" min="0" max="120" placeholder="Idade">
+        </div>
+        <div class="controle-form">
+            <!-- <label for="altura">Altura:</label> -->
+            <input type="number" id="altura" min="0.3" max="2.50" step="0.01" placeholder="Altura">
+        </div>
+        <div class="controle-form">
+            <!-- <label for="peso">Peso:</label> -->
+            <input type="number" id="peso" min="2.5" max="595" step="0.5" placeholder="Peso">
+        </div>
+        <div class="controle-form">
+            <label for="dataNascimento">Data de Nascimento: </label>
+            <input type="date" id="dataNascimento">
+        </div>
+        <div class="controle-form">
+            <label for="dataCadastro">Data do Cadastro: </label>
+            <input type="date" id="dataCadastro ">
+        </div>
+        <div class="controle-form">
+            <label for="horaCadastro">Hora do Cadastro: </label>
+            <input type="time" id="dataNascimento">
+        </div>
+        <div class="controle-form">
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha">
+        </div>
+    
+        <!-- <div class="controle-form">
+            <label for="imagen">Enviar imagem: </label>
+            <input type="image" id="imagem" alt="Imagem do form">
+        </div> -->
+        <div class="controle-form">
+            <!-- <label for="arquivo">Arquivo: </label> -->
+            <input type="file" id="arquivo">
+        </div>
+        <div class="controle">
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        </div>
+        <div class="controle-form">
+            <label for="cor">Tú é: </label>
+            <input type="color" id="cor">
+        </div>
+        <!-- <input width="150px" type="image" img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"> -->
+        <!-- <input type="hidden" value="chave" value="541861684186185484">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"> -->
+    </form>
+</body>
+</html>

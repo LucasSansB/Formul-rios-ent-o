@@ -1,0 +1,73 @@
+
+
+button[type="submit"]{
+    background-color: chartreuse;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+    box-shadow: 3px 3px 1px #444;
+}
+button[type="submit"]:hover{
+    background-color: green;
+    box-shadow: -3px -3px 1px #444;
+    transition: all .3s;
+}
+button[type="submit"]:active{
+    background-color:cyan;
+    box-shadow: inset 1px 1px 3px #444;
+}
+button[type="reset"]{
+    background-color: red;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+    box-shadow: 3px 3px 1px #444;
+}
+button[type="reset"]:hover{
+    background-color:brown;
+    box-shadow: -3px -3px 1px #444;
+    transition: all .3s;
+}
+button[type="reset"]:active{
+    background-color:cyan;
+    box-shadow: inset 1px 1px 3px #444;
+}
+.controle-form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 2px;
+}
+.controle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+:root{
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    font-family: none;
+    font-family: 'Courier New', Courier, monospace;
+    height: 30px;
+}
